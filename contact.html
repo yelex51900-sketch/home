@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="なごみ建築工房へのお問い合わせ">
+<title>お問い合わせ | NAGOMI なごみ建築工房</title>
+<link rel="stylesheet" href="style.css"><script src="site.js" defer></script>
+</head>
+<body class="contact-page">
+<header class="contact-header">
+  <a class="brand" href="index.html" aria-label="NAGOMI ホームへ"><span class="brand-mark">⌂</span><span><strong>NAGOMI</strong><small>なごみ建築工房</small></span></a>
+  <nav class="contact-nav" aria-label="メインナビゲーション">
+    <a href="index.html">ホーム</a><a href="works.html">施工事例</a><a href="homebuilding.html">家づくり</a><a href="recruit.html">採用情報</a><a href="company.html">会社案内</a>
+  </nav>
+  <a class="phone-link" href="tel:0120123456">☎ 0120-123-456<small>受付 9:00 - 18:00（火・水 定休）</small></a>
+</header>
+<main class="contact-main">
+  <p class="eyebrow">CONTACT</p><h1>お問い合わせ</h1>
+  <p class="contact-intro">家づくりのこと、土地のこと、資金のこと。<br>どんなことでも、お気軽にご相談ください。</p>
+  <p class="contact-phone">お電話でのお問い合わせ　<a href="tel:0120123456">0120-123-456</a><small>受付 9:00 - 18:00（火・水 定休）</small></p>
+  <form id="contact-form" class="contact-form">
+    <label>お問い合わせ内容 <select name="subject" id="subject" required>
+      <option value="">選択してください</option><option>家づくりの相談</option><option>土地・資金について</option><option>施工事例について</option><option>採用について</option><option>その他</option>
+    </select></label>
+    <label>お名前 <input name="name" autocomplete="name" required></label>
+    <label>メールアドレス <input name="email" type="email" autocomplete="email" required></label>
+    <label>電話番号（任意） <input name="phone" type="tel" autocomplete="tel"></label>
+    <label>お問い合わせ内容 <textarea name="message" rows="5" required></textarea></label>
+    <p class="form-note">このページは静的サイトのため、入力内容はサーバーへ送信されません。送信機能を有効にするには、運用時にフォーム送信先の設定が必要です。</p>
+    <button class="gold-button" type="submit">入力内容を確認する　›</button>
+    <p id="form-result" class="form-result" role="status" aria-live="polite"></p>
+  </form>
+  <a class="back-link" href="index.html">← トップページへ戻る</a>
+</main>
+</body></html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="なごみ建築工房 — 自然と、暮らしと、未来をつくる。">
+<title>施工事例 | NAGOMI なごみ建築工房</title>
+<link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
+</head>
+<body class="page-works">
+<main class="canvas" aria-label="施工事例">
+<img class="reference-screen" src="assets/works.png" alt="施工事例画面。画像内の各メニューはクリックして移動できます。" draggable="false">
+<nav class="hotspots" aria-label="メインナビゲーション">
+<a class="hotspot nav-home" href="index.html" aria-label="ホーム" title="ホーム"></a>
+<a class="hotspot nav-works" href="works.html" aria-label="施工事例" title="施工事例"></a>
+<a class="hotspot nav-homebuilding" href="homebuilding.html" aria-label="家づくり" title="家づくり"></a>
+<a class="hotspot nav-recruit" href="recruit.html" aria-label="採用情報" title="採用情報"></a>
+<a class="hotspot nav-company" href="company.html" aria-label="会社案内" title="会社案内"></a>
+<a class="hotspot nav-phone" href="tel:0120123456" aria-label="電話 0120-123-456"></a>
+<a class="hotspot nav-contact" href="contact.html" aria-label="お問い合わせ"></a>
+
+<a class="hotspot work-card work-1" href="#project-1" data-project="0" aria-label="光がめぐる 吹き抜けのある家"></a>
+<a class="hotspot work-card work-2" href="#project-2" data-project="1" aria-label="四季を感じる 和モダンの平屋"></a>
+<a class="hotspot work-card work-3" href="#project-3" data-project="2" aria-label="家族がつながる 木のぬくもりの空間"></a>
+<a class="hotspot work-card work-4" href="#project-4" data-project="3" aria-label="中庭とつながる もうひとつのリビング"></a>
+<a class="hotspot work-card work-5" href="#project-5" data-project="4" aria-label="シンプルに美しく暮らす 黒の外観の家"></a>
+<a class="hotspot work-card work-6" href="#project-6" data-project="5" aria-label="自然に溶け込む 白のシンプルな家"></a>
+<a class="hotspot works-cta" href="contact.html" aria-label="ご相談はこちら"></a>
+</nav>
+</main>
+
+<section class="modal" id="project-modal" hidden aria-modal="true" role="dialog" aria-labelledby="project-title">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-panel">
+    <button class="modal-close" type="button" aria-label="閉じる" data-close-modal>×</button>
+    <p class="eyebrow">WORKS / 施工事例</p>
+    <h2 id="project-title"></h2>
+    <p id="project-description"></p>
+    <p class="note">※掲載画像・文章はデザイン見本に基づく紹介です。個別物件の詳細情報はお問い合わせください。</p>
+    <a class="gold-button" id="project-contact" href="contact.html">この事例について相談する　›</a>
+  </div>
+</section>
+</body></html>
